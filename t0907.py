@@ -2,7 +2,7 @@
 import torch
 import matchzoo as mz
 import DSSM_preprocess
-
+add_in_test = DSSM_preprocess.DSSM_preprocess(1)
 d = DSSM_preprocess.DSSM_preprocess(1)
 t = d.preprocess(6)
 print(t)
